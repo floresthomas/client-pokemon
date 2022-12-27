@@ -1,0 +1,65 @@
+.containerCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    width: 300px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    transition: all .3s ease;
+    border:rgb(84, 106, 168) 1px solid;
+    box-shadow: inset 0 0 10px rgb(84, 111, 170),0 0 15px rgb(86, 130, 172);
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.containerCard:hover{ 
+    box-shadow: inset 0 0 20px rgb(0, 0, 0),0 0 20px rgb(0, 0, 0);
+}
+
+.imgCard{
+    max-width: 270px;
+    max-height: 200px; 
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    margin-left: 15px;
+}
+
+.buttonCard{
+    color: rgb(233, 124, 0);
+    background-color: black;
+    border: 1px rgb(219, 150, 0) solid;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-family: "Finlandica";
+    font-weight: 700;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.buttonCard:hover{
+    color: white;
+    background-color: rgb(184, 150, 0);
+}
+
+.title{
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: "Finlandica";
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 0.250em rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+.type{
+    margin-bottom: 5px;
+    color: white;
+    font-size: 15px;
+    gap: 4px;
+}

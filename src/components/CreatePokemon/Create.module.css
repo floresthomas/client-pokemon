@@ -1,0 +1,175 @@
+.imgForm{
+    background: url("https://wallpaperaccess.com/full/2915587.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 1%;
+    border: 3px rgb(86, 95, 179) solid;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 30px rgb(84, 78, 163),
+    0 0 40px rgb(85, 78, 185);
+}
+
+.titleForm{
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: "Finlandica";
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 0.250em rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+.buttonCreate{
+    color: rgb(46, 41, 41);
+    background-color: rgb(131, 163, 224);
+    border: 1px rgb(85, 113, 175) solid;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-family: "Finlandica";
+    font-weight: 700;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.buttonCreate:hover{
+    color: white;
+    background-color: rgb(78, 101, 177);
+}
+
+.volver{
+    color: rgb(46, 41, 41);
+    background-color: rgb(131, 163, 224);
+    border: 1px rgb(85, 113, 175) solid;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-family: "Finlandica";
+    font-weight: 700;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.volver:hover{
+    color: white;
+    background-color: rgb(78, 101, 177);
+}
+
+
+.name{
+    margin-top: 4px;
+    padding: 6px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    background-color: rgba(255, 255, 255, 0.878);
+}
+
+.life{
+    margin-top: 4px;
+    padding: 6px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    background-color: rgba(248, 248, 248, 0.899);
+}
+
+.attack{
+    margin-top: 4px;
+    padding: 6px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    background-color: rgba(248, 248, 248, 0.899);
+}
+
+.defense{
+    margin-top: 4px;
+    padding: 6px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    background-color: rgba(248, 248, 248, 0.899);
+}
+
+.speed{
+    margin-top: 4px;
+    padding: 6px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    background-color: rgba(248, 248, 248, 0.899);
+}
+
+.heigth{
+    margin-top: 4px;
+    padding: 6px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    background-color: rgba(248, 248, 248, 0.899);
+}
+
+.weigth{
+    margin-top: 4px;
+    padding: 6px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    background-color: rgba(248, 248, 248, 0.899);
+}
+
+.image{
+    margin-top: 4px;
+    padding: 6px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-top: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    background-color: rgba(248, 248, 248, 0.899);
+}
+
+.types{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    margin-left: 80px;
+}

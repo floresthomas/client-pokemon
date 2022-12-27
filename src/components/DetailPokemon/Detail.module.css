@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.imgBg{
+    background: url("https://cdn.wallpapersafari.com/65/86/oBnycV.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+
+.title{
+    color: ghostwhite;
+    font-weight: 500;
+    text-shadow: 0px 3px 10px rgb(84, 112, 189) , 1px 0 10px rgb(80, 80, 255);
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.imageVg{
+    height: auto;
+    width: 30%;
+    margin-left: 20px;
+    border: 1px rgb(85, 80, 156) solid;
+    box-shadow: 0 0 30px rgb(78, 185, 185) , 0 0 40px rgb(59, 156, 151);
+    width: 300px;
+    height: 300px;
+}
+
+.data{
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    margin-bottom: 20px;
+}

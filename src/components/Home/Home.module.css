@@ -1,0 +1,42 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.imgFondo{
+    background: url("https://images7.alphacoders.com/381/381583.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    margin: 30px auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.recargar:hover{
+    color: orange;
+    background-color: black;
+}
+
+.create{
+    text-decoration: none;
+    list-style-type: none;
+    color: orange;
+    margin-right: 10px;
+    margin-left: 10px;
+}

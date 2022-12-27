@@ -1,0 +1,13 @@
+.loading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pikachu{
+    position: absolute;
+    top: 40%;
+    width: 15%;
+    height: auto;
+}
